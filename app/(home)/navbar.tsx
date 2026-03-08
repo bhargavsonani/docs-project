@@ -120,10 +120,7 @@ import { Button } from "@/components/ui/button";
 
 export const Navbar = () => {
 
-  // Prevent hydration mismatch
-  if (!isLoaded) {
-    return null;
-  }
+
 
   return (
     <nav className="flex items-center justify-between h-full w-full">
